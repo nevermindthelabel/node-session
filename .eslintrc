@@ -1,5 +1,13 @@
 {
-  "extends": [
-    "wesbos"
-  ]
+  "extends": ["wesbos"],
+  "rules": {
+    "no-console": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "none",
+        "singleQuote": true
+      }
+    ]
+  }
 }
